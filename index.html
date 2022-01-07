@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Repaso</title>
+</head>
+<body>
+    <h1>Repaso HTML</h1>
+    
+    <h2>Formulario</h2>
+
+    <form>
+        <fieldset>
+            <legend>Datos</legend>
+            <div>
+                <label for="nombre">Nombre</label>
+                <input  id="nombre" name="nombre" type="text" placeholder="Ingrese tu nombre">
+            </div>
+            <div>
+                <label for="apellido">Apellido</label>
+                <input id="apellido" name="apellido" type="text" placeholder="Ingrese su apellido">
+            </div>
+            <div>
+               <label for="comentario">Comentario</label>
+                <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
+            </div>
+            <div>
+                <!--<button>Enviar</button> tendria que hacer codigo con java script para que jale los datos--> 
+                <input type="button" value="Enviar">
+             </div>
+        </fieldset>
+    </form>
+    
+    <h2>Tabla</h2>
+    
+    <table>
+        <!--colwspan-->
+        <!--rowspan-->
+        <thead>
+            <tr>
+                <th>Cabecera</th>
+                <th>Cabecera</th>
+            </tr>
+            
+        </thead>
+        <tbody>
+            <tr>
+                <td>A</td>
+                <td>B</td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Pie</td>
+                <td>Pie</td>
+            </tr>
+        </tfoot>
+    </table>
+
+
+    <!--inline-->
+    <a class="enlace" href="servicios.html" target="_blank">Enlace</a>
+    <a class="enlace" href="servicios.html" target="_blank">Enlace 2</a>
+    <span class="enlace">Este es un span</span>
+    <!--block En bloque-->
+    <p id="bloque">Este es un párrafo</p>
+    <h1 id="bloque">Titulo</h1>
+    <h2 id="bloque">subtitulo h2</h2>
+    <h6 id="bloque">subtitulo h6</h6>
+    <div id="bloque">Este es un div</div>
+
+    <a href="servicios.html" target="_blank"><button>Hola</button></a>
+    <a href="servicios.html"><img src="https://www.purina-latam.com/sites/g/files/auxxlc391/files/styles/large/public/2021-10/los-mejores-juegos-de-perritos-cachorros-por-mes-de-edad.png?itok=UNEbd6Xh" alt="Perrito" width="300"/img></a>
+    <a href="#subtitulo">Ir arriba</a>
+
+</body>
+</html>
